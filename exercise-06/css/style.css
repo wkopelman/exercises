@@ -1,0 +1,84 @@
+/* (General) Type Selectors */
+/* STEP 3A */ {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+/* STEP 12 */ {
+  background-color: rgba(231,209,75,0.5); /* lt yellow */
+}
+
+/* STEP 7B */ {
+  color: rgb(69,105,159); /* blue */
+}
+
+/* STEP 7A */ {
+  line-height: 1.5;
+}
+
+/* STEP 10A */ {
+  list-style-type: square;
+}
+
+/* STEP 11A*/ {
+  text-decoration-color: rgb(69,105,159); /* blue */
+  text-decoration-style: wavy;
+}
+
+/* STEP 11B */ {
+  font-style: italic;
+  color: rgb(69,105,159); /* blue */
+}
+
+
+/* (Structural) Type Selectors */
+
+/* STEP 3B */ {
+  margin-bottom: 16px;
+  padding: 16px;
+  background-color: rgba(231,209,75,0.15); /* lt yellow */
+}
+
+/* STEP 10B */ {
+  font-style: italic;
+}
+
+/* STEP 6A */ {
+  color: #000;
+}
+
+
+/* id Selectors */
+/* STEP 4A */ {
+  background-color: rgba(69,105,159,0.15); /* lt blue */
+  border: 1px dashed rgb(69,105,159); /* blue */
+}
+
+/* STEP 6B */ {
+  color: rgb(69,105,159); /* blue */
+}
+
+/* STEP 4B */ {
+  background-color: rgb(231,209,75); /* yellow */
+}
+
+/* STEP 8 */ {
+  border: 1px dashed rgb(69,105,159);
+  padding-left: 16px;
+}
+
+
+
+/* class Selectors */
+
+/* STEP 5A */ {
+  font-weight: bold;
+}
+
+/* STEP 13 */ {
+  font-size: 22px;
+}
+
+/* STEP 5B */ {
+  font-weight: bold;
+  color: rgb(69,105,159); /* blue */
+}
