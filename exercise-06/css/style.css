@@ -1,30 +1,31 @@
-/* (General) Type Selectors */
-/* STEP 3A */ {
+body {
   font-family: "Helvetica", "Arial", sans-serif;
 }
 
-/* STEP 12 */ {
+a:hover {
   background-color: rgba(231,209,75,0.5); /* lt yellow */
 }
 
-/* STEP 7B */ {
+h2,
+h3 {
   color: rgb(69,105,159); /* blue */
 }
 
-/* STEP 7A */ {
+p,
+li {
   line-height: 1.5;
 }
 
-/* STEP 10A */ {
+ul > li {
   list-style-type: square;
 }
 
-/* STEP 11A*/ {
+abbr[title] {
   text-decoration-color: rgb(69,105,159); /* blue */
   text-decoration-style: wavy;
 }
 
-/* STEP 11B */ {
+[datetime="1995"] {
   font-style: italic;
   color: rgb(69,105,159); /* blue */
 }
@@ -32,36 +33,36 @@
 
 /* (Structural) Type Selectors */
 
-/* STEP 3B */ {
+section {
   margin-bottom: 16px;
   padding: 16px;
   background-color: rgba(231,209,75,0.15); /* lt yellow */
 }
 
-/* STEP 10B */ {
+#geography aside {
   font-style: italic;
 }
 
-/* STEP 6A */ {
+footer a {
   color: #000;
 }
 
 
 /* id Selectors */
-/* STEP 4A */ {
+#introduction {
   background-color: rgba(69,105,159,0.15); /* lt blue */
   border: 1px dashed rgb(69,105,159); /* blue */
 }
 
-/* STEP 6B */ {
+#introduction {
   color: rgb(69,105,159); /* blue */
 }
 
-/* STEP 4B */ {
+footer {
   background-color: rgb(231,209,75); /* yellow */
 }
 
-/* STEP 8 */ {
+#geography aside {
   border: 1px dashed rgb(69,105,159);
   padding-left: 16px;
 }
@@ -70,15 +71,15 @@
 
 /* class Selectors */
 
-/* STEP 5A */ {
+.first {
   font-weight: bold;
 }
 
-/* STEP 13 */ {
+.first::first-letter {
   font-size: 22px;
 }
 
-/* STEP 5B */ {
+.highlight {
   font-weight: bold;
   color: rgb(69,105,159); /* blue */
 }
