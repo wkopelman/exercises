@@ -1,0 +1,30 @@
+/* style sheet for polaroid.html */
+
+/* This is an alternative solution to show how there's not always
+   one solution to a problem! :) In this case, there are a few 
+   more moving parts, but it still works! */
+
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Shadows+Into+Light&display=swap');
+
+body {
+  font-family: "Gugi", "Helvetica", "Arial", sans-serif;
+}
+
+figure {
+  margin: 0;
+  border: 1px solid #222;
+  /* padding: 20px 20px 30px 20px; */
+  width: 392px;
+}
+
+img {
+  margin: 20px 20px 0 20px;
+  border: 1px solid #222;
+}
+
+figcaption {
+  font-family: "Shadows Into Light", "Helvetica", "Arial", sans-serif;
+  text-align: right;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}

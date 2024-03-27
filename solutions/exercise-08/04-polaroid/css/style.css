@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Shadows+Into+Light&display=swap');
+
+body {
+  font-family: "Gugi", "Helvetica", "Arial", sans-serif;
+}
+
+figure {
+  border: 1px solid #555;
+  margin: 0;
+  padding: 20px 20px 30px 20px;
+  width: 350px;
+}
+
+img {
+  border: 1px solid #555;
+}
+
+figcaption {
+  font-family: "Shadows Into Light", "Courier New", monospace;
+  text-align: right;
+}
