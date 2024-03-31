@@ -1,0 +1,55 @@
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  max-width: 960px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+header,
+nav,
+footer {
+  background-color: #eee;
+}
+
+section {
+  background-color: #ddd;
+  padding: 20px;
+}
+
+section p {
+  margin-bottom: 0;
+}
+
+header,
+footer {
+  padding-left: 20px;
+  grid-column: 1 / -1;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-areas:
+    "welcome  welcome"
+    "cats     coming-soon";
+}
+
+#welcome {
+  grid-area: welcome;
+}
+
+#coming-soon {
+  grid-area: coming-soon;
+}
+
+#cats {
+  grid-area: cats;
+}
