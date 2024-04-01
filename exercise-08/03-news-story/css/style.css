@@ -1,3 +1,19 @@
 body {
-  /* add your styles to center the block of content! */
+  h1 {text-align: center;}
+  h2 {text-align: left;}
+  p {text-align: left;}
+  div {text-align: left;}
+}
+
+box {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+
+max-width: 960px;
+min-width: 500px;
+
+margin: 0 auto;
 }
