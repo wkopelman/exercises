@@ -1,0 +1,54 @@
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+
+  max-width: 960px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  grid-template-areas:
+    "header header"
+    "nav    main"
+    "nav    footer";
+}
+
+h2 {
+  margin-top: 0;
+}
+
+header,
+nav,
+footer {
+  background-color: #eee;
+}
+
+header,
+footer {
+  padding-left: 20px;
+}
+
+section {
+  background-color: #ddd;
+  padding: 20px;
+}
+
+section p {
+  margin-bottom: 0;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}

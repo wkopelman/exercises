@@ -1,0 +1,71 @@
+/* 03-simple-layout.css */
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+header,
+nav,
+footer {
+  background-color: #eee;
+}
+
+section {
+  background-color: #ddd;
+}
+
+/* **************************************** */
+/* DO NOT TOUCH ANY STYLES ABOVE THIS LINE! */
+/* WRITE YOUR STYLES BELOW! 👇👇👇           */
+/* **************************************** */
+
+/*
+  Normally, we would just include these in the body tag above, but I
+  want you to see these properties are independent of the rules above!
+*/
+
+body {
+  max-width: 960px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  grid-template-areas:
+    "masthead    masthead"
+    "navigation  welcome"
+    "copyright   copyright";
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  margin: 0;
+}
+
+header,
+footer {
+  padding: 0 20px;
+}
+
+header {
+  grid-area: masthead;
+}
+
+nav {
+  grid-area: navigation;
+}
+
+main {
+  grid-area: welcome;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  grid-area: copyright;
+}
