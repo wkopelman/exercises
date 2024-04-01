@@ -13,3 +13,23 @@ section {
 /* DO NOT TOUCH ANY STYLES ABOVE THIS LINE! */
 /* WRITE YOUR STYLES BELOW! 👇👇👇           */
 /* **************************************** */
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 960px;
+  grid-gap: 20px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
