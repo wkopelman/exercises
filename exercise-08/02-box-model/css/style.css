@@ -1,4 +1,11 @@
 #box {
   background-color: rgba(180,49,36,0.5);
-  /* add your properties here */
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  max-width: 920px;
+  min-width: 500px;
 }
+
+
