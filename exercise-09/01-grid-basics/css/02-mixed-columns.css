@@ -13,3 +13,37 @@ section {
 /* DO NOT TOUCH ANY STYLES ABOVE THIS LINE! */
 /* WRITE YOUR STYLES BELOW! 👇👇👇           */
 /* **************************************** */
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 20px;
+
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#c {
+  grid-column: 3;
+  grid-row: 1 / 3;
+/* Column C occupies three rows with a given range. No grid column range is indicated for Column C in grid-column tag, hence the content starts at grid line 1.
+*/
+}
+
+#d {
+  grid-column: 1 / span 2;
+}
+/* Grid-row is unnecessary because of its lesser content space demands than others.
+*/
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
