@@ -1,0 +1,74 @@
+body {
+  color: #222;
+  font-family: sans-serif;
+  line-height: 1.2;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+h3 {
+  border-bottom: 1px solid #222;
+}
+
+img {
+  max-width: 100px;
+  height: auto;
+
+}
+
+header img {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+/*
+  The rules for the 'header img' selector could be applied to the img
+  block which already existed.
+
+  One reason to write the new selector: We only want to move the image
+  within header. If there were any other images on or added this page
+  they would be impacted by the rule, too, and positioned in the bottom
+  right corner.
+
+  Just something to keep in mind when you create your own designs and
+  write the CSS for them. :)
+*/
+
+main {
+  max-width: 500px;
+}
+
+section {
+  margin-bottom: 32px;
+  position: relative;
+}
+
+/*
+  Each time tag will be positioned *within* the section tag, so we must
+  add position: relative; This 'wakes up' the section to keep our time
+  tags within it and not positioned within the entire viewport.
+*/
+
+section h4,
+section p {
+  margin: 0;
+}
+
+time {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/*
+  Because positioning is taken out of the normal flow, it's okay for us
+  to position just the time element and not the whole paragraph.
+
+  We want the time element to be on the top, right corner of the
+  section, so we use absolute positioning. This also requires us to
+  'wake up' our section from being a static element. (See above.)
+*/
