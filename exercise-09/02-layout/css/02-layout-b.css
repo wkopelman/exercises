@@ -3,6 +3,56 @@
 body {
   font-family: "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  grid-template-areas: 
+    "header header"
+    "nav main"
+    "footer footer";
+
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+nav ul {
+  margin-top: 20px;
+}
+
+header h1 {
+  margin-left: 25px;
+}
+
+main {
+  grid-area: main;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  grid-template-areas:
+    "welcome  welcome"
+    "cats coming-soon"
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  grid-area: footer;
+}
+
+footer p {
+  margin-left: 20px;
 }
 
 header,
@@ -13,4 +63,16 @@ footer {
 
 section {
   background-color: #ddd;
+}
+
+#welcome {
+  grid-area: welcome;
+}
+
+#cats {
+  grid-area: cats;
+}
+
+#coming-soon {
+  grid-area: coming-soon;
 }
