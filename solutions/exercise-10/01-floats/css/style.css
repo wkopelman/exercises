@@ -1,0 +1,54 @@
+body {
+  color: #222;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+main {
+  padding: 16px;
+  max-width: 700px;
+  background-color: rgba(223,99,41,0.1);
+}
+
+figure {
+  margin: 32px 0 0 0;
+  overflow: auto;
+  clear: both;
+}
+
+/*
+  overflow: auto; will clear the float, but it's a good idea to clear
+  the float, too.
+*/
+
+figure img {
+  border: 1px solid #222;
+  float: left;
+  margin-right: 16px;
+}
+
+.alt img {
+  float: right;
+  margin-left: 16px;
+}
+
+/*
+  We can initially set all of our img tags to be floated left, but then
+  we write a rule which uses the class "alt" in our HTML to float just
+  this image to the right.
+*/
+
+/*
+  Why 16 pixels for our margins and padding? It's a matter of keeping
+  the whitespace proportional to our font size. When we want the space
+  to be double, we just multiply 16 x 2 = 32.
+
+  There's actually a better way of doing this, though: by using
+  relative units such as em or rem. We'll see this a bit more when we
+  learn a bit about responsive design. :)
+*/
