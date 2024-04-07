@@ -18,15 +18,29 @@ img {
   height: auto;
 
 }
+
+header img {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
 main {
   max-width: 500px;
 }
 
 section {
   margin-bottom: 32px;
+  position: relative;
 }
 
 section h4,
 section p {
   margin: 0;
+}
+
+time {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
